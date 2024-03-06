@@ -5,7 +5,17 @@ This repository contains code for analyzing and preparing the "bike_rent.csv" da
 
 # Getting Started
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-To use this code, follow the steps below:
+# To run the project locally, please ensure you have the following dependencies installed:
+
+- Python 3.7 or higher
+- NumPy
+- Pandas
+- Seaborn
+- Scikit-learn
+- Matplotlib
+- Jupyter Notebook
+- ipykernel
+- streamlit
 
 Clone the repository to your local machine or download the code files.
 Ensure that you have Python 3.x installed on your system.
@@ -31,5 +41,29 @@ The code performs the following tasks:
 13. Computes the correlation matrix and visualizes it using a heatmap.
 14. Performs feature selection using recursive feature elimination, univariate feature selection, tree-based feature selection, and L1 regularization.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Usage
+Launch VSCODE
+Open the Model Training.ipynb notebook.
+Run the cells in the notebook to execute the code and see the results.
+Feel free to modify the code or experiment with different models and parameters.
+Results
+The results of the bike sharing demand prediction are evaluated based on various metrics such as mean absolute error (MAE), root mean squared error (RMSE), and R-squared score. These metrics provide insights into the performance of the model and how well it predicts bike sharing demand.
+
+# Model Building and Selection
+To predict the bike rental count, several machine learning models were implemented and evaluated. The following algorithms were utilized:
+
+- Linear Regression
+- Random Forest
+- Extra Trees Regressor
+- LightGBM
+- XGBoost
+- Decision Tree
+  
+After training and evaluating these models, XGBoost was chosen as the final model due to its superior performance in terms of accuracy and predictive power. Model Deployment
+
+The selected XGBoost model was deployed using Streamlit, a Python library for building interactive web applications. The deployment allows users to input the relevant features such as date, weather conditions, and time, and obtain the predicted bike rental count as the output.
+
+Deployment Link- 
+
 # Conclusion
 This code provides a comprehensive analysis of the "bike_rent.csv" dataset, including data cleaning, visualization, and feature selection. It aims to gain insights into the factors influencing bike rentals and identify the most relevant features for prediction models. Feel free to explore and modify the code to suit your specific requirements.
