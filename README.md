@@ -1,7 +1,10 @@
 # Bike_Sharing_Rental_Project
 
-Bike-rental-analysis
+# Overview
 This repository contains code for analyzing and preparing the "bike_rent.csv" dataset. The code performs various data collection, cleaning, visualization, and feature selection tasks using the Python programming language and the pandas, numpy, seaborn, and scikit-learn libraries.
+
+This project aims to develop a predictive model to forecast the bike rental count based on various features such as date, weather conditions, and time of the day. The project utilizes hour datasets." The "day" dataset contains daily aggregated bike rental information, while the "hour" dataset provides hourly details. Dataset Description Day Dataset
+
 
 # Getting Started
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
