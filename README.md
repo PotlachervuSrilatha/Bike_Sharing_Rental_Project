@@ -69,4 +69,9 @@ The selected XGBoost model was deployed using Streamlit, a Python library for bu
 Deployment Link- 
 
 # Conclusion
-This code provides a comprehensive analysis of the "bike_rent.csv" dataset, including data cleaning, visualization, and feature selection. It aims to gain insights into the factors influencing bike rentals and identify the most relevant features for prediction models.Feature and Labels had a weak linear relationship, hence the prediction from the linear model was very low. Best predictions are obtained with XGBoost Regresson model  with applied hyperparamter tuning with r2 score of 0.999.
+This code provides a comprehensive analysis of the "bike_rent.csv" dataset, including data cleaning, visualization, and feature selection. It aims to gain insights into the factors influencing bike rentals and identify the most relevant features for prediction models.Feature and Labels had a weak linear relationship, hence the prediction from the linear model was very low. Best predictions are obtained with XGBoost Regresson model  with applied hyperparamter tuning with r2 score of 0.999.We saved the model to disk using pickl. After savaing the model we load the model form file
+![image](https://github.com/PotlachervuSrilatha/Bike_Sharing_Rental_Project/assets/97737090/76e197a4-0c51-45ae-90d4-a05cad347148)
+After we deployed our model using Streamlit Web Application
+![image](https://github.com/PotlachervuSrilatha/Bike_Sharing_Rental_Project/assets/97737090/84d0250a-f6a3-484d-a49d-4a26c64fc76a)
+
+
